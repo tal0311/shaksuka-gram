@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  padding: 2rem;
+}
+
+.matches {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: row;
+}

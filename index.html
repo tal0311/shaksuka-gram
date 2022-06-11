@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/lib/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body onload="onInit()">
+    <!-- <h2>Refreshing...</h2> -->
+    <div class="container">
+      <header>
+        <span class="matches" onclick="window.location.replace('/matches.html')"
+          >Matches</span
+        >
+        <h1>sukagram</h1>
+      </header>
+      <div class="img-container"></div>
+      <div class="actions-container">
+        <button class="like">Like</button>
+        <button class="super">Super</button>
+        <button class="unlike">Unlike</button>
+      </div>
+    </div>
+
+    <div class="modal">
+      <h2></h2>
+    </div>
+    <script src="js/lib/hammer.js"></script>
+    <script src="/js/services/home.servic.js"></script>
+    <script src="js/homeController.js"></script>
+  </body>
+</html>
