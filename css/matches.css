@@ -14,3 +14,6 @@ body {
   grid-template-columns: 1fr;
   grid-auto-flow: row;
 }
+img {
+  width: 90vw;
+}
